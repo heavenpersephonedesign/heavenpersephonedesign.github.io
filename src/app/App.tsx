@@ -25,15 +25,7 @@ export default function App() {
         <BackgroundBlobs isDark={isDark} />
         <CustomCursor />
         <ThemeToggle isDark={isDark} onToggle={() => setIsDark(!isDark)} />
-        <a
-          href="/portfolio-source.zip"
-          download
-          className="fixed bottom-5 right-5 z-50 flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium shadow-lg"
-          style={{ background: '#d64269', color: '#eeeeee' }}
-        >
-          ⬇ Download Source ZIP
-        </a>
-        
+
         <div className="relative z-10">
           <Routes>
             <Route
